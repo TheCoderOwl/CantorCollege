@@ -1,0 +1,33 @@
+header{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 a:hover{
+    color: #000000;
+}
+nav ul{
+    padding-left: 0;
+    flex-direction: row;
+}
+nav ul li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:none;
+    border-left: 1px solid #241698;
+    color: #FFFFFF;
+}
+nav li a:hover{
+    color: #000000
+}
+nav li:first-child{
+    border-left: none;
+}
+main{
+    display: flex;
+}
+section img{
+    width: 100%;
+    height: 100%;
+}
