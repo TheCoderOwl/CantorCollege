@@ -1,33 +1,31 @@
-header{
+.container {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+header {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
 }
-header h1 a:hover{
-    color: #000000;
-}
-nav ul{
+nav ul {
     padding-left: 0;
     flex-direction: row;
 }
-nav ul li{
+nav ul li {
     display: inline;
-    padding-left: 15px;
-    padding-right: 15px;
-    border:none;
-    border-left: 1px solid #241698;
-    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-left: 1px solid #f2a903;
+    border-bottom: 1px solid #f2a903;
+    height: 200px;
+    
 }
 nav li a:hover{
-    color: #000000
+    color: #f2a903;
+    text-decoration: underline;
 }
 nav li:first-child{
     border-left: none;
-}
-main{
-    display: flex;
-}
-section img{
-    width: 100%;
-    height: 100%;
 }
